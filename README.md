@@ -16,6 +16,19 @@
 
 Elaboración del **Registro de Actividades de Tratamiento (RAT)** según el **Artículo 30 del RGPD** (Reglamento General de Protección de Datos) para la empresa ficticia *Marketing S.L.*, empresa de marketing digital con clientes B2B. El RAT documenta todos los tratamientos de datos personales realizados por la organización, incluyendo responsables, finalidades, categorías de datos, destinatarios, transferencias internacionales y medidas de seguridad.
 
+## Estructura del RAT
+
+| Campo | Descripción |
+|---|---|
+| Responsable del tratamiento | Identificación de Marketing S.L. y DPO |
+| Finalidades | Marketing directo, gestión de leads, analytics |
+| Categorías de interesados | Clientes, prospectos, empleados |
+| Categorías de datos | Contacto, financieros, comportamiento web |
+| Destinatarios | CRM, plataformas email, redes sociales |
+| Transferencias internacionales | Proveedores cloud no EU (SCCs aplicadas) |
+| Plazos de supresión | Según finalidad y base legal |
+| Medidas de seguridad | Cifrado, acceso por roles, auditoría |
+
 ## Arquitectura
 
 ```mermaid
@@ -29,19 +42,6 @@ flowchart TD
     C & D & E & F & G --> H[Tablas.xlsx - Inventario de tratamientos]
     H --> I[RAT.pdf - Documento oficial final]
 ```
-
-## Estructura del RAT
-
-| Campo | Descripción |
-|---|---|
-| Responsable del tratamiento | Identificación de Marketing S.L. y DPO |
-| Finalidades | Marketing directo, gestión de leads, analytics |
-| Categorías de interesados | Clientes, prospectos, empleados |
-| Categorías de datos | Contacto, financieros, comportamiento web |
-| Destinatarios | CRM, plataformas email, redes sociales |
-| Transferencias internacionales | Proveedores cloud no EU (SCCs aplicadas) |
-| Plazos de supresión | Según finalidad y base legal |
-| Medidas de seguridad | Cifrado, acceso por roles, auditoría |
 
 ## Contenido del repositorio
 
